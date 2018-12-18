@@ -1,9 +1,9 @@
 $(function(){
-	listBooks('../json/nvi.json');
-	listCaps('../json/nvi.json');
-	listTitle('../json/nvi.json');
-	readJson('../json/acf.json', '#acf', getUrlVars()['book'], getUrlVars()['chapter']);
- 	readJson('../json/nvi.json', '#nvi', getUrlVars()['book'], getUrlVars()['chapter']);
+	listBooks('./../../json/nvi.json');
+	listCaps('./../../json/nvi.json');
+	listTitle('./../../json/nvi.json');
+	readJson('./../../json/acf.json', '#acf', getUrlVars()['book'], getUrlVars()['chapter']);
+ 	readJson('./../../json/nvi.json', '#nvi', getUrlVars()['book'], getUrlVars()['chapter']);
 });
 
 console.log();
