@@ -1,0 +1,30 @@
+{
+  "name": "biblia",
+  "version": "1.0.0",
+  "description": "Este projeto tem o objetivo de democratizar o acesso à Bíblia Sagrada em português brasileiro a programadores, desenvolvedores e pessoas interessadas em proclamar o Evangelho e as boas-novas do Reino de Deus por meio da tecnologia. Gostou do projeto? Você pode nos ajudar a ir ainda mais longe, basta fazer uma contribuição via PayPal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandroatallah/Estudo-biblico.git"
+  },
+  "author": "Leandro Atallah (http://atallah.com.br)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandroatallah/Estudo-biblico/issues"
+  },
+  "homepage": "https://github.com/leandroatallah/Estudo-biblico#readme",
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0"
+  }
+}
